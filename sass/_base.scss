@@ -1,0 +1,40 @@
+// Colors
+// Primary
+$Very-Dark-Blue: hsl(243, 87%, 12%);
+$Desaturated-Blue: hsl(238, 22%, 44%);
+
+// Accent
+$Bright-Blue: hsl(224, 93%, 58%);
+$Moderate-Cyan: hsl(170, 45%, 43%);
+
+// Neutral
+$Light-Grayish-Blue: hsl(240, 75%, 98%);
+$Light-Gray: hsl(0, 0%, 75%);
+
+// Typography
+// Headings, Call-to-actions, Header Navigation
+$Font-Stack-Raleway: "Raleway", sans-serif;
+$Font-Weight-Raleway-I: 400;
+$Font-Weight-Raleway-II: 700;
+
+// Body
+$Font-Stack-Open-Sans: "Open Sans", sans-serif;
+$Font-Weight-Open-Sans: 400;
+
+// reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
